@@ -1,0 +1,14 @@
+{
+  "stryker-config": {
+    "reporters": [
+      "Json",
+      "ConsoleReport",
+	    "ConsoleProgressBar"
+    ],
+    "log-level": "info",
+    "project-file": "PetshopProject.csproj",
+    "excluded-mutations": [
+      "string"
+    ]
+  }
+}
